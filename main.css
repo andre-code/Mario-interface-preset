@@ -36,3 +36,59 @@ body {
   width: 60px;
 }
 
+.mario img  {
+  animation-duration: 10s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-top: 5px;
+  }
+
+  10% {
+    margin-top: 490px;
+    margin-left: 0px;
+  }
+  20% {
+    margin-top: 490px;
+    margin-left: 450px;
+  } 
+  30% {
+    margin-top: 230px;
+    margin-left: 470px;
+  }
+  35% {
+    margin-top: 290px;
+    margin-left: 500px;
+  } 
+  40% {
+    margin-top: 290px;
+    margin-left: 770px;
+  } 
+  50% {
+    margin-top: 490px;
+    margin-left: 780px;
+  }
+  60% {
+    margin-top: 490px;
+    margin-left: 870px;
+  }
+  70% {
+    margin-top: 390px;
+    margin-left: 900px;
+  }
+  80% {
+    margin-top: 390px;
+    margin-left: 980px;
+  }
+  90% {
+    margin-top: 380px;
+    margin-left: 1050px;
+  }
+  100% {
+    margin-top: 490px;
+    margin-left: 1050px;
+  }
+}
+
